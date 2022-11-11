@@ -24,4 +24,4 @@ def random_color_make():
     images_rgb = images.convert("RGB")  # HSVからRGBに変換
 
     images_rgb.show()
-    return images_rgb.save("images/random_color.png")
+    return images_rgb.save("static/images/random_color.png")
